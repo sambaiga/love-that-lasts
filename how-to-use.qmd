@@ -1,0 +1,66 @@
+---
+title: "How to Use This Guide"
+---
+
+<p class="preface-epigraph">You are not being graded. You are being formed.</p>
+
+This is a self-guided journey designed to be done without a counselor, teacher, or facilitator present. Because of that, the guide moves intentionally slowly and repeats important reminders.
+
+## What this guide is
+
+- A space to reflect, understand, and practice
+- A tool for growth, not diagnosis
+- A shared language for future conversations
+
+## What this guide is not
+
+- A test of who is more mature
+- A place to resolve every conflict
+- A tool to fix your spouse
+
+## Before you begin
+
+Agree together on these four commitments:
+
+::: {.info-box}
+1. We will not interrupt.
+2. We will not fix or correct.
+3. We will not weaponize vulnerability later.
+4. We will pause if emotions escalate.
+
+**The goal is not agreement; it is understanding.**
+:::
+
+## How each day works
+
+Each day is designed to take **20–30 minutes**. You may stop early if emotions rise. Progress matters more than completion.
+
+Each day follows the same rhythm:
+
+| Element | Purpose |
+|:--------|:--------|
+| <i class="bi bi-book-half" style="color:#2C3E6B"></i> **Teaching** | A concept, framework, or biblical grounding to read together |
+| <i class="bi bi-pencil-square" style="color:#C9705A"></i> **Self-Reflection** | A question to answer individually before sharing |
+| <i class="bi bi-chat-dots" style="color:#6B5B95"></i> **Couple Conversation** | A structured discussion prompt with listening rules |
+| <i class="bi bi-moon-stars" style="color:#B86870"></i> **Closing Prayer** | A brief prayer to anchor the day's growth |
+
+## If one partner is hesitant
+
+Begin Day 1 on your own. Growth in one spouse often creates space for the other to engage when they are ready.
+
+> *Do not use this guide as leverage to demand participation.*
+
+## The group materials
+
+After completing all four days together, the [Husbands' Group](group-husbands.html) and [Wives' Group](group-wives.html) guides provide a structured discussion for each partner to be honest with peers who share their experience. These are most valuable when used 1–2 days after completing Day 4.
+
+## The activity sheet
+
+The [Couples Activity Sheet](activity-sheet.html) is a condensed companion to the four-day guide; one printable page capturing all the key activities. You can use it during the guide or as a reference later.
+
+---
+
+<div class="preface-attr">
+<strong>Anthony Faustine</strong><br>
+<a href="https://sambaiga.github.io">sambaiga.github.io</a>
+</div>

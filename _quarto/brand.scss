@@ -1,0 +1,720 @@
+/*-- scss:defaults --*/
+
+// Warm palette inspired by the guide's print colors
+$primary:              #2C3E6B;   // deep navy
+$link-color:           #2C3E6B;
+$body-color:           #2D2A24;
+$body-bg:              #FFFEF9;   // warm white
+$code-bg:              #FAF6F0;
+$code-color:           #2C3E6B;
+
+$font-family-sans-serif: "Libre Franklin", "Segoe UI", system-ui, sans-serif !default;
+$headings-font-family:   "Jost", "Segoe UI", system-ui, sans-serif !default;
+$headings-font-weight:   600;
+$headings-color:         #2C3E6B;
+$font-size-base:         1.0625rem;
+$line-height-base:       1.8;
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap";
+
+// Accent color tokens (used throughout)
+$accent:       #C9705A;
+$accent-light: #F5EDE4;
+$cream:        #FAF6F0;
+$border-warm:  #E0D4C3;
+
+/*-- scss:rules --*/
+
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+// ── Base typography ───────────────────────────────────────────────────────────
+
+p {
+  text-align: justify;
+  hyphens: auto;
+  margin-bottom: 1.1rem;
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+.content h2,
+.chapter h2 {
+  border-bottom: 1px solid #EDE6DC;
+  padding-bottom: 0.3em;
+  margin-top: 2.5rem;
+}
+
+blockquote {
+  border-left: 4px solid $accent;
+  background: $accent-light;
+  padding: 0.9rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #2C3E6B;
+
+  p { margin-bottom: 0; text-align: left; }
+  strong { color: $accent; font-style: normal; }
+}
+
+// ── Sidebar ───────────────────────────────────────────────────────────────────
+
+.sidebar-title {
+  font-family: $headings-font-family;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #2C3E6B;
+}
+
+.sidebar-menu-container {
+  font-size: 0.8125rem;
+}
+
+.sidebar-item.sidebar-item-section .sidebar-item-text {
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #5A5040;
+}
+
+.sidebar-item.active > .sidebar-item-container .sidebar-item-text {
+  color: $accent;
+  font-weight: 600;
+}
+
+// ── Chapter title ─────────────────────────────────────────────────────────────
+
+.quarto-title-block {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #EDE6DC;
+
+  .title { font-size: 1.875rem; line-height: 1.2; }
+}
+
+.quarto-title-breadcrumbs {
+  font-size: 0.8125rem;
+  color: #8A7D6A;
+}
+
+// ── Callout overrides ─────────────────────────────────────────────────────────
+
+div.callout {
+  border-left-color: $primary;
+}
+
+div.callout-tip {
+  border-left-color: #B8860B;
+  background: #FFFBF0;
+}
+
+div.callout-note {
+  border-left-color: $primary;
+  background: #F0F4FA;
+}
+
+div.callout-important {
+  border-left-color: $accent;
+  background: $accent-light;
+}
+
+// ── Diagram figures (SVG-based) ───────────────────────────────────────────────
+
+.diagram-figure {
+  text-align: center;
+  margin: 1.75rem auto;
+
+  svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  figcaption {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: #8A7D6A;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+}
+
+// ── Cover hero ────────────────────────────────────────────────────────────────
+
+.cover-hero {
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 28px,
+      rgba(201, 112, 90, 0.07) 28px,
+      rgba(201, 112, 90, 0.07) 29px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 56px,
+      rgba(255, 210, 185, 0.04) 56px,
+      rgba(255, 210, 185, 0.04) 57px
+    ),
+    linear-gradient(150deg, #1B2C50 0%, #2C3E6B 35%, #1A2545 65%, #0F1830 100%);
+  border-radius: 14px;
+  padding: 48px 52px;
+  margin-bottom: 36px;
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -90px;
+    right: -70px;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(201,112,90,0.22) 0%, rgba(201,112,90,0.06) 45%, transparent 70%);
+    pointer-events: none;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -80px;
+    left: -50px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,200,155,0.12) 0%, transparent 65%);
+    pointer-events: none;
+  }
+
+  h1 {
+    font-family: $headings-font-family;
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    color: #CBD5E1;
+    font-size: 1rem;
+    text-align: left;
+    hyphens: none;
+    margin-bottom: 0;
+    max-width: 560px;
+    line-height: 1.65;
+  }
+
+  @media (max-width: 576px) {
+    padding: 28px 24px;
+    h1 { font-size: 1.65rem; }
+  }
+}
+
+.cover-author {
+  font-size: 0.9rem;
+  color: #CBD5E1;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  a { text-decoration: none; color: #F8C8B4; }
+  i { font-size: 1.05em; vertical-align: middle; }
+}
+
+.cover-stat-row {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+
+  @media (max-width: 400px) { gap: 20px; }
+}
+
+.cover-stat {
+  .stat-value {
+    display: block;
+    font-family: $headings-font-family;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #F8C8B4;
+    line-height: 1;
+  }
+  .stat-label {
+    display: block;
+    font-size: 0.68rem;
+    color: #CBD5E1;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 3px;
+  }
+}
+
+.btn-cover {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 22px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-right: 10px;
+  margin-top: 4px;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    opacity: 0.88;
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+
+  &.btn-primary-cover  { background: #FFFFFF; color: #2C3E6B; }
+  &.btn-secondary-cover {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1.5px solid rgba(255,255,255,0.4);
+  }
+}
+
+.section-label {
+  font-family: $headings-font-family;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8A7D6A;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #EDE6DC;
+  }
+}
+
+// ── Day framework cards ───────────────────────────────────────────────────────
+
+.day-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.day-card {
+  border: 1px solid $border-warm;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #FFFFFF;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 6px 24px rgba(44,62,107,0.09);
+    transform: translateY(-2px);
+  }
+}
+
+.day-stripe {
+  height: 5px;
+  flex-shrink: 0;
+
+  &.day-1 { background: #2C3E6B; }
+  &.day-2 { background: #6B5B95; }
+  &.day-3 { background: #B86870; }
+  &.day-4 { background: $accent; }
+}
+
+.day-inner {
+  padding: 20px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.day-icon {
+  font-size: 1.75rem;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1;
+
+  &.day-icon-1 { color: #2C3E6B; }
+  &.day-icon-2 { color: #6B5B95; }
+  &.day-icon-3 { color: #B86870; }
+  &.day-icon-4 { color: $accent; }
+}
+
+.day-eyebrow {
+  font-family: $headings-font-family;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #2C3E6B;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.day-desc {
+  font-size: 0.795rem;
+  color: #5A5040;
+  line-height: 1.5;
+  text-align: left;
+  hyphens: none;
+  margin-bottom: 0;
+}
+
+// ── Reflection and writing boxes ──────────────────────────────────────────────
+
+.reflection-box {
+  border: 1px solid $border-warm;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  background: #FFFFFF;
+  margin: 1.25rem 0;
+
+  p { margin-bottom: 0.5rem; text-align: left; hyphens: none; }
+
+  > p:first-child { font-weight: 600; color: $primary; margin-bottom: 0.75rem; }
+}
+
+.write-line {
+  border-bottom: 1px solid #D8CCBC;
+  height: 2.25rem;
+  margin: 0.25rem 0 0.9rem;
+}
+
+.write-line-short {
+  border-bottom: 1px solid #D8CCBC;
+  height: 2.25rem;
+  margin: 0.25rem 0 0.9rem;
+  width: 60%;
+}
+
+// ── Accent / quote boxes ──────────────────────────────────────────────────────
+
+.accent-box {
+  background: $accent-light;
+  border: 1.5px solid rgba($accent, 0.45);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  font-style: italic;
+  text-align: center;
+  color: #2C3E6B;
+
+  p { margin-bottom: 0; text-align: center; }
+}
+
+.scripture-box {
+  background: #F0F4FA;
+  border-left: 4px solid #2C3E6B;
+  border-radius: 0 10px 10px 0;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  color: #2C3E6B;
+
+  p { margin-bottom: 0; text-align: left; }
+}
+
+.info-box {
+  background: $cream;
+  border: 1px solid $border-warm;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+
+  p { margin-bottom: 0.5rem; text-align: left; hyphens: none; }
+  ul, ol { margin-bottom: 0; }
+}
+
+.prayer-box {
+  background: $accent-light;
+  border: 1.5px solid rgba($accent, 0.5);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+
+  p { font-style: italic; text-align: left; margin-bottom: 0; }
+  strong { font-style: normal; color: #2C3E6B; }
+}
+
+// ── Day number badge ──────────────────────────────────────────────────────────
+
+.day-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: $headings-font-family;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  background: $primary;
+  padding: 4px 14px;
+  border-radius: 99px;
+  margin-bottom: 1rem;
+}
+
+// ── Circle of Influence diagram ───────────────────────────────────────────────
+
+.circle-diagram {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.circle-outer {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: rgba(44,62,107,0.06);
+  border: 2px solid rgba(44,62,107,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle-outer-label {
+  position: absolute;
+  top: 18px;
+  font-family: $headings-font-family;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: rgba(44,62,107,0.55);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.circle-concern-text {
+  position: absolute;
+  bottom: 26px;
+  font-size: 0.68rem;
+  font-style: italic;
+  color: rgba(44,62,107,0.5);
+  text-align: center;
+  padding: 0 24px;
+}
+
+.circle-inner {
+  width: 158px;
+  height: 158px;
+  border-radius: 50%;
+  background: rgba(201,112,90,0.18);
+  border: 2px solid $accent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-inner-text {
+  text-align: center;
+  padding: 8px;
+
+  strong {
+    font-family: $headings-font-family;
+    font-size: 0.75rem;
+    color: #2C3E6B;
+    display: block;
+    margin-bottom: 4px;
+  }
+  small {
+    font-size: 0.62rem;
+    color: rgba($accent, 0.85);
+    font-style: italic;
+    line-height: 1.4;
+    display: block;
+  }
+}
+
+.circle-caption {
+  text-align: center;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: #8A7D6A;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+// ── Three-love framework cards ────────────────────────────────────────────────
+
+.love-framework {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.love-card {
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  text-align: center;
+
+  &.vertical  { background: #EEF2F9; border: 1.5px solid rgba(44,62,107,0.3); }
+  &.internal  { background: $accent-light; border: 1.5px solid rgba($accent,0.4); }
+  &.horizontal { background: #EEE8F6; border: 1.5px solid rgba(107,91,149,0.35); }
+}
+
+.love-card-title {
+  font-family: $headings-font-family;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+
+  .vertical  & { color: #2C3E6B; }
+  .internal  & { color: $accent; }
+  .horizontal & { color: #6B5B95; }
+}
+
+.love-card-text {
+  font-size: 0.78rem;
+  color: #5A5040;
+  line-height: 1.55;
+  margin: 0;
+  text-align: left;
+  hyphens: none;
+}
+
+// ── Footer ────────────────────────────────────────────────────────────────────
+
+.nav-footer {
+  background-color: #1B2440;
+  color: #D4C8BC;
+  font-size: 0.85rem;
+  border: 0 !important;
+  align-items: flex-start;
+
+  a {
+    color: #F8C8B4;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    &:hover { color: #FAE0D4; text-decoration: underline; }
+  }
+
+  .faux-block {
+    display: block;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.25rem 0;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: rgba(248,200,180,0.12);
+      color: #F8C8B4;
+      transition: all 0.2s ease;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $accent;
+        color: #FFFFFF;
+        transform: translateY(-2px);
+        text-decoration: none;
+      }
+
+      i { font-size: 1rem; }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .nav-footer-left  { text-align: left; }
+    .nav-footer-right { text-align: right; }
+    .nav-footer-center { text-align: center; }
+  }
+}
+
+// ── Sidebar: suppress chapter-number on welcome entry ─────────────────────────
+.sidebar-menu-container > ul.list-unstyled.mt-1 > li.sidebar-item:first-child .chapter-number,
+.quarto-title-breadcrumbs .breadcrumb-item:first-child .chapter-number {
+  display: none;
+}
+
+// ── Preface epigraph ──────────────────────────────────────────────────────────
+
+.preface-epigraph {
+  font-family: $headings-font-family;
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-style: italic;
+  color: $accent;
+  border-left: 4px solid $accent;
+  background: $accent-light;
+  padding: 1.1rem 1.5rem;
+  border-radius: 0 10px 10px 0;
+  margin: 0 0 2.5rem;
+  line-height: 1.65;
+  text-align: left;
+}
+
+.preface-attr {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #EDE6DC;
+  font-size: 0.875rem;
+  color: #8A7D6A;
+
+  strong { color: #2C3E6B; }
+}
+
+// ── Activity sheet ────────────────────────────────────────────────────────────
+
+.couple-header {
+  background: $cream;
+  border: 1px solid $border-warm;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+
+  @media (max-width: 500px) { grid-template-columns: 1fr; }
+}
+
+.couple-field {
+  p { margin: 0; font-size: 0.9rem; }
+}
+
+.couple-field-line {
+  border-bottom: 1px solid $border-warm;
+  height: 2rem;
+  margin-top: 4px;
+}
+
+// ── Mermaid diagram theming ───────────────────────────────────────────────────
+
+.mermaid {
+  text-align: center;
+  margin: 1.5rem 0;
+}

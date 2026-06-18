@@ -1,0 +1,186 @@
+---
+title: "Couples Activity Sheet"
+subtitle: "A Companion to the 4-Day Guide"
+---
+
+<p class="preface-epigraph">"Love the Lord your God with all your heart, soul, and mind. Love your neighbor as yourself."; Matthew 22:37–39</p>
+
+This sheet condenses the key activities from all four days. Use it alongside each day's chapter, or return to it later as a quick reference.
+
+<div class="couple-header">
+<div class="couple-field">
+<p><strong>Spouse 1:</strong></p>
+<div class="couple-field-line"></div>
+<p style="margin-top:0.75rem"><strong>Years Married:</strong></p>
+<div class="couple-field-line"></div>
+</div>
+<div class="couple-field">
+<p><strong>Spouse 2:</strong></p>
+<div class="couple-field-line"></div>
+<p style="margin-top:0.75rem"><strong>Date:</strong></p>
+<div class="couple-field-line"></div>
+</div>
+</div>
+
+---
+
+## Day 1: The Foundation
+
+*Jesus provides a three-dimensional framework for a healthy marriage. If any one of these is missing, the others become unstable.*
+
+<div class="love-framework">
+<div class="love-card vertical">
+<p class="love-card-title">☝ Vertical Love</p>
+<p class="love-card-text">Loving God: shaping who you are becoming in Christ. Only God can meet the needs you may be placing on your spouse.</p>
+</div>
+<div class="love-card internal">
+<p class="love-card-title">◎ Internal Love</p>
+<p class="love-card-text">Knowing Yourself; honest self-awareness of your own needs, triggers, and wiring. You cannot give what you have not managed within yourself.</p>
+</div>
+<div class="love-card horizontal">
+<p class="love-card-title">↔ Horizontal Love</p>
+<p class="love-card-text">Loving Your Spouse, the daily actions and words through which you express love. Inner character made visible.</p>
+</div>
+</div>
+
+::: {.reflection-box}
+**Self-Reflection (Individual):** Which area currently needs the most attention?
+
+- ☐ My relationship with God *(Vertical Love)*
+- ☐ My self-awareness *(Internal Love)*
+- ☐ How I show love to my spouse *(Horizontal Love)*
+
+Write one sentence explaining why:
+
+<div class="write-line"></div>
+
+**Couple Conversation (5 Minutes):** Take turns answering. Listen without correcting; share without defending.
+
+1. "Which of these three areas feels strongest for me right now?"
+2. "Which one feels most challenging, and why?"
+
+<div class="write-line"></div>
+<div class="write-line"></div>
+:::
+
+::: {.reflection-box}
+**Identifying Internal Chaos:** What is one source of stress I am currently allowing to "leak" into my marriage?
+
+<div class="write-line"></div>
+
+**The Leading Gap:** Where do I most struggle to lead my own reactions before they affect my spouse?
+
+<div class="write-line"></div>
+:::
+
+---
+
+## Day 2: Understanding Our Personality Wiring
+
+*God redeems personality; He does not erase it. Understanding your spouse's wiring helps you stop seeing differences as character flaws and start seeing them as divine design.*
+
+Rate each trait: **L** = Low (opposite of trait name), **M** = Medium, **H** = High.
+
+| Trait | Marriage Focus | Me | Spouse |
+|:---|:---|:---:|:---:|
+| **Openness** | Flexibility vs. routine; adventure vs. stability | ☐ L ☐ M ☐ H | ☐ L ☐ M ☐ H |
+| **Conscientiousness** | Structure, planning, responsibility | ☐ L ☐ M ☐ H | ☐ L ☐ M ☐ H |
+| **Extraversion** | Energy source; talking vs. internal processing | ☐ L ☐ M ☐ H | ☐ L ☐ M ☐ H |
+| **Agreeableness** | Conflict style; peace vs. directness | ☐ L ☐ M ☐ H | ☐ L ☐ M ☐ H |
+| **Emotional Stability** | Stress response; calm vs. sensitivity | ☐ L ☐ M ☐ H | ☐ L ☐ M ☐ H |
+
+::: {.reflection-box}
+One trait where we are similar:
+
+<div class="write-line"></div>
+
+One trait that helps our marriage:
+
+<div class="write-line"></div>
+
+One trait difference that sometimes creates tension:
+
+<div class="write-line"></div>
+
+This difference usually shows up during: ☐ Conflict &nbsp;&nbsp; ☐ Stress &nbsp;&nbsp; ☐ Decisions &nbsp;&nbsp; ☐ Communication
+
+A false assumption I sometimes make about my spouse's wiring:
+
+<div class="write-line"></div>
+:::
+
+::: {.accent-box}
+*Traits are tendencies, not labels. Wiring explains why something is hard; it never excuses hurting one another.*
+:::
+
+---
+
+## Day 3: Building Emotional Intelligence
+
+*EI is love made visible under pressure. Unlike IQ, it can grow throughout your marriage.*
+
+Work through both columns independently, then share your Growth Area with your spouse.
+
+| My EI Strength | My EI Growth Area |
+|:---|:---|
+| ☐ Self-awareness (Recognizing my triggers) | ☐ Self-awareness (Recognizing my triggers) |
+| ☐ Self-regulation (Pausing before I react) | ☐ Self-regulation (Pausing before I react) |
+| ☐ Empathy (Seeing things from your perspective) | ☐ Empathy (Seeing things from your perspective) |
+| ☐ Motivation (Choosing us over being "right") | ☐ Motivation (Choosing us over being "right") |
+| ☐ Relational Skill (Speaking so you are heard) | ☐ Relational Skill (Speaking so you are heard) |
+
+::: {.reflection-box}
+**Skills Discussion:**
+
+1. Share your Growth Area with your spouse.
+2. Which EI pillar is strongest in our marriage right now?
+3. Which one would most improve our connection if practiced intentionally?
+4. Listener: offer a specific example of a time your spouse *did* show that skill recently.
+
+<div class="write-line"></div>
+<div class="write-line"></div>
+:::
+
+::: {.accent-box}
+*No fixing · No defending · Only listening*
+:::
+
+---
+
+## Day 4: Practical Skills
+
+*How you start a conversation determines how it ends. Choose a minor, recurring frustration and take turns using the Soft Startup script.*
+
+::: {.reflection-box}
+**Speaker**; name the emotion, describe the situation, state a positive need:
+
+I feel: <div class="write-line"></div>
+
+About what happened: <div class="write-line"></div>
+
+What I need right now is: <div class="write-line"></div>
+
+**Listener**; reflect back what you heard before responding:
+
+I hear that you feel: <div class="write-line"></div>
+
+I understand that was hard for you. How can I help with: <div class="write-line"></div>
+:::
+
+::: {.accent-box}
+"Because I love God and I understand my wiring, I commit to practicing
+
+_____________________________ *(EI Skill)*
+
+this week, especially when I feel _____________________________ *(Trigger).*"
+:::
+
+---
+
+## Three Anchors to Carry Forward
+
+::: {.info-box}
+- **Reset Phrase:** *"Let's pause; I want to understand, not win."*
+- **Personality Grace:** *"My spouse is wired differently, not wrongly."*
+- **Spiritual Anchor:** *"Love is not just what we feel; it is who we are becoming in Christ."*
+:::

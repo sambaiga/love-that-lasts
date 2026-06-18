@@ -1,0 +1,146 @@
+---
+title: "Day 2: Understanding Your Personality Wiring"
+---
+
+<span class="day-badge"><i class="bi bi-person-circle"></i> Day 2 of 4</span>
+
+## The Personality Map
+
+God does not erase personality when He saves us; He redeems it. Consider those closest to Jesus: Peter remained bold, John remained relational, Martha remained task-focused, and Mary remained reflective. God did not flatten their differences; He worked through them. Your personality is not an obstacle to love; it is the channel through which love flows.
+
+::: {.callout-note}
+## Definition
+
+**Personality:** The enduring characteristics and behavior that comprise a person's unique adjustment to life, including major traits, interests, drives, values, self-concept, abilities, and emotional patterns.
+:::
+
+::: {.callout-tip}
+## Warm-up Discussion
+
+"When preparing for a trip, who is the 'packed early with a plan' person, and who is the 'last-minute packer'?"
+
+Then answer together:
+
+1. How does stress amplify these differences, if any?
+2. Which approach brings strengths to our marriage?
+:::
+
+Jesus' command to "Love your neighbor as yourself" assumes that you actually know who that "self" is. We cannot offer a "self" to our spouse that we haven't first understood and submitted to God.
+
+---
+
+## The Big Five Traits
+
+The [Big Five traits](https://open.baypath.edu/psy321book/chapter/c19p2/) are the "factory settings" of your soul. When we link them to Jesus' command, the perspective shifts.
+
+::: {.callout-tip}
+## As you read the traits, quietly note:
+
+::: {.reflection-box}
+One trait where you feel understood:
+
+<div class="write-line"></div>
+
+One trait where you feel misunderstood:
+
+<div class="write-line"></div>
+:::
+:::
+
+1. **Openness (Flexibility vs. Routine):** Loving your neighbor means honoring their need for stability or their desire for growth.
+
+2. **Conscientiousness (Order vs. Spontaneity):** Loving your neighbor means respecting their need for structure rather than seeing it as "rigidity."
+
+3. **Extraversion (Talking vs. Thinking):** Loving your neighbor means giving them the space to process or the attention they need to feel heard.
+
+4. **Agreeableness (Harmony vs. Directness):** Loving your neighbor means being honest without being harsh, or being peaceable without being passive.
+
+5. **Emotional Stability (Calm vs. Sensitivity):** Loving your neighbor means being a "safe harbor" for their sensitivity or a steady anchor in their storm.
+
+::: {.callout-important}
+## Rules of Engagement
+
+- Traits are tendencies, not labels.
+- Traits explain reactions, not intentions.
+- Wiring explains *why* something is hard; it never excuses hurting one another.
+:::
+
+Robert R. McCrae and Paul T. Costa Jr. found that personality *similarity* between partners matters far less than personality *understanding* (McCrae & Costa, 1987). Knowing how your spouse is wired is the practical way we "carry each other's burdens" (Galatians 6:2).
+
+---
+
+## Personality Mapping Activity
+
+**Instructions:** Mark your own scores individually. Then share your table with your spouse.
+
+- **Low (L):** You tend toward the opposite of the trait name.
+- **Medium (M):** You are balanced or situational.
+- **High (H):** You strongly identify with the trait name.
+
+| Trait | **Low (L)** looks like… | **High (H)** looks like… | My Score |
+|:---|:---|:---|:---:|
+| **Openness** | Prefers tradition and routine. | Prefers variety and new ideas. | ☐ L ☐ M ☐ H |
+| **Conscientiousness** | Spontaneous; "go with the flow." | Highly organized; plan-oriented. | ☐ L ☐ M ☐ H |
+| **Extraversion** | Recharges alone; quiet reflector. | Recharges with people; vocal processor. | ☐ L ☐ M ☐ H |
+| **Agreeableness** | Direct; competitive; "truth-first." | Warm; cooperative; "peace-first." | ☐ L ☐ M ☐ H |
+| **Emotional Stability** | Sensitive; "First Responder" to stress. | Even-tempered; "Steady Anchor." | ☐ L ☐ M ☐ H |
+
+: My Personality Mapping {#tbl-bigfive}
+
+::: {.callout-tip}
+## Couple Discussion
+
+::: {.reflection-box}
+One trait where we are similar:
+
+<div class="write-line"></div>
+
+One trait that helps our marriage:
+
+<div class="write-line"></div>
+
+One trait difference that sometimes creates tension:
+
+<div class="write-line"></div>
+
+This difference usually shows up during: ☐ Conflict &nbsp;&nbsp; ☐ Stress &nbsp;&nbsp; ☐ Decisions &nbsp;&nbsp; ☐ Communication
+
+A false assumption I sometimes make about my spouse's wiring:
+
+<div class="write-line"></div>
+:::
+:::
+
+---
+
+## The "Winning" Trap
+
+Marshall Goldsmith, executive coach and author of *What Got You Here Won't Get You There* (2007), identifies "winning too much" as the most common destructive habit in high-achieving people. In marriage, we often import this habit, using our personality strengths as weapons to win an argument rather than build connection.
+
+> **The goal is not to be "right"; it is to be connected.**
+
+---
+
+## Closing Reflection
+
+::: {.callout-tip}
+## Day 2 Closing Reflection
+
+Before moving to Day 3, take a quiet moment individually to answer:
+
+::: {.reflection-box}
+One trait in myself I want to offer more skillfully to my spouse:
+
+<div class="write-line"></div>
+
+One trait in my spouse I want to judge less and understand more:
+
+<div class="write-line"></div>
+:::
+:::
+
+::: {.prayer-box}
+**Day 2 Prayer (Together):**
+
+*Lord, You made us differently on purpose. Forgive us for the times we have treated our spouse's wiring as a problem to fix rather than a gift to understand. Teach us to carry each other's burdens with patience, and to see Your design in our differences. Amen.*
+:::

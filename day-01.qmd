@@ -1,0 +1,201 @@
+---
+title: "Day 1: The Foundation"
+---
+
+<span class="day-badge"><i class="bi bi-layers"></i> Day 1 of 4</span>
+
+## Introduction
+
+This guide is designed to help couples move from feeling love to practicing love skillfully. It is created specifically to help you and your spouse:
+
+- Increase understanding of your own wiring
+- Reduce misinterpretation of your spouse's actions
+- Build emotional and relational skills you can practice daily
+
+::: {.callout-tip}
+## Before continuing, quietly consider:
+
+1. When conflict arises, do I usually focus more on my spouse's behavior or my own reactions?
+2. What do I hope will improve in our marriage by working through this guide together?
+
+*Do not discuss yet, just notice.*
+:::
+
+---
+
+## The Biblical Foundation
+
+::: {.scripture-box}
+**Matthew 22:37 to 39**
+
+"Jesus replied: 'Love the Lord your God with all your heart and with all your soul and with all your mind. This is the first and greatest commandment. And the second is like it: Love your neighbor as yourself.'"
+:::
+
+In these verses, Jesus provides a clear, three-dimensional framework for a healthy marriage: **Loving God**, **Knowing Yourself**, and **Loving Your Spouse**. If any one of these is missing, the others become unstable.
+
+<div class="love-framework">
+<div class="love-card vertical">
+<p class="love-card-title">☝ Vertical Love</p>
+<p class="love-card-text">Loving God: shaping who you are becoming in Christ. Prevents you from demanding your spouse meet needs that only God can fulfill.</p>
+</div>
+<div class="love-card internal">
+<p class="love-card-title">◎ Internal Love</p>
+<p class="love-card-text">Knowing Yourself: the "as yourself" part. Honest self-awareness of your own needs, hurts, and how you are naturally wired.</p>
+</div>
+<div class="love-card horizontal">
+<p class="love-card-title">↔ Horizontal Love</p>
+<p class="love-card-text">Loving Your Spouse: the relational skill of loving well, expressed through your daily actions and words.</p>
+</div>
+</div>
+
+<figure class="diagram-figure">
+<svg viewBox="-15 -20 430 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Triangle diagram: Vertical Love (Loving God) at top, Internal Love (Knowing Yourself) at bottom left, Horizontal Love (Loving Your Spouse) at bottom right">
+  <!-- Triangle background fill -->
+  <polygon points="200,55 60,278 340,278" fill="rgba(245,237,228,0.55)" stroke="none"/>
+  <!-- Triangle edges -->
+  <line x1="176" y1="94" x2="85" y2="239" stroke="#C8BBA8" stroke-width="1.5"/>
+  <line x1="225" y1="94" x2="315" y2="239" stroke="#C8BBA8" stroke-width="1.5"/>
+  <line x1="106" y1="278" x2="294" y2="278" stroke="#C8BBA8" stroke-width="1.5"/>
+  <!-- Edge labels -->
+  <text font-size="9.5" fill="#A09080" font-style="italic" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle" transform="rotate(-55 130 163)">
+    <tspan x="130" y="163">shapes the heart</tspan>
+  </text>
+  <text font-size="9.5" fill="#A09080" font-style="italic" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle" transform="rotate(55 270 163)">
+    <tspan x="270" y="163">expressed in skill</tspan>
+  </text>
+  <text x="200" y="266" font-size="9.5" fill="#A09080" font-style="italic" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">"love as yourself"</text>
+  <!-- Top circle: Vertical Love -->
+  <circle cx="200" cy="55" r="46" fill="#2C3E6B"/>
+  <text x="200" y="50" font-size="11.5" font-weight="bold" fill="white" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Vertical</text>
+  <text x="200" y="65" font-size="11.5" font-weight="bold" fill="white" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Love</text>
+  <text x="200" y="5" font-size="10" fill="#6B84A0" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Loving God</text>
+  <!-- Bottom-left circle: Internal Love -->
+  <circle cx="60" cy="278" r="46" fill="#C9705A"/>
+  <text x="60" y="273" font-size="11.5" font-weight="bold" fill="white" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Internal</text>
+  <text x="60" y="288" font-size="11.5" font-weight="bold" fill="white" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Love</text>
+  <text x="60" y="336" font-size="10" fill="#6B84A0" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Knowing</text>
+  <text x="60" y="350" font-size="10" fill="#6B84A0" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Yourself</text>
+  <!-- Bottom-right circle: Horizontal Love -->
+  <circle cx="340" cy="278" r="46" fill="#6B5B95"/>
+  <text x="340" y="273" font-size="11.5" font-weight="bold" fill="white" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Horizontal</text>
+  <text x="340" y="288" font-size="11.5" font-weight="bold" fill="white" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Love</text>
+  <text x="340" y="336" font-size="10" fill="#6B84A0" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Loving Your</text>
+  <text x="340" y="350" font-size="10" fill="#6B84A0" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Spouse</text>
+  <!-- Scripture reference -->
+  <text x="200" y="375" font-size="9" fill="#A09080" font-style="italic" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">Matthew 22:37–39</text>
+</svg>
+<figcaption class="circle-caption"><em>The three-dimensional framework for a healthy marriage</em></figcaption>
+</figure>
+
+You cannot consistently give your spouse what you have not learned to manage within yourself. A couple may pray together and attend church faithfully, yet still struggle because they react harshly under pressure, avoid conflict, or misread emotional needs. This does not mean they lack love; it means they lack relational skills.
+
+> **Key Truth:** Marriage struggles are often skill gaps, not love gaps. Loving God shapes the heart; relationship skills train the hands.
+
+::: {.callout-tip}
+## Self-Reflection (Individual)
+
+Which area currently needs the most attention in your own life?
+
+- ☐ My relationship with God *(Vertical Love)*
+- ☐ My self-awareness and emotional maturity *(Internal Love)*
+- ☐ How I show love to my spouse *(Horizontal Love)*
+
+::: {.reflection-box}
+Write one sentence explaining why:
+
+<div class="write-line"></div>
+:::
+:::
+
+::: {.callout-tip}
+## Couple Conversation (5 Minutes)
+
+Take turns answering the following questions. The goal is understanding, not problem-solving.
+
+1. "Which of these three areas feels strongest for me right now?"
+2. "Which one feels most challenging, and why?"
+
+**Rules for this conversation:**
+
+1. One person speaks at a time.
+2. Listen without correcting.
+3. Share without defending.
+:::
+
+---
+
+## From Mandate to Method
+
+We have looked at the **Mandate**: Jesus' command to love. But how do we actually "do" this when we are tired, frustrated, or misunderstood? To move from the *desire* to love to the *skill* of loving, we focus on two areas:
+
+### 1. Understanding Your Wiring (Personality)
+
+Jesus' command to love your neighbor **"as yourself"** requires that you understand who that "self" is. God does not erase your personality; He redeems it. By understanding your traits, you stop judging your spouse's differences as character flaws and start seeing them as divine design.
+
+### 2. Leading Yourself Well (Emotional Intelligence)
+
+If personality is your wiring, Emotional Intelligence (EI) is your operating system. It is the skill of "leading yourself" so your internal chaos doesn't leak into your spouse's life. EI provides the **"Pause"** needed to ensure your love is a choice, not a reaction.
+
+> **The Goal:** By learning to manage your own heart, you stop being controlled by immediate impulses and start becoming a faithful steward of your love.
+
+::: {.callout-tip}
+## Identifying "Internal Chaos"
+
+What is one source of internal chaos (work stress, a recurring frustration, or a past hurt) that you are currently allowing to "leak" into your marriage?
+
+::: {.reflection-box}
+<div class="write-line"></div>
+<div class="write-line"></div>
+:::
+:::
+
+### The Circle of Influence
+
+Jesus provides the "Hinge" for marriage: **The "Self."** To love your neighbor (your spouse) well, you must lead the "self" you are offering to them.
+
+Stephen R. Covey, in *The 7 Habits of Highly Effective People*, teaches that we have a **Circle of Concern** (things we cannot control, like our spouse's mood) and a **Circle of Influence** (things we can control, like our own reactions). This mirrors the biblical call to examine ourselves before addressing others (Matthew 7:3 to 5).
+
+<figure class="diagram-figure">
+<svg viewBox="-10 -10 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nested circles: Circle of Influence inside Circle of Concern">
+  <!-- Outer circle: Circle of Concern -->
+  <circle cx="140" cy="140" r="128" fill="rgba(44,62,107,0.06)" stroke="rgba(44,62,107,0.2)" stroke-width="1.5"/>
+  <!-- Inner circle: Circle of Influence -->
+  <circle cx="140" cy="140" r="72" fill="rgba(201,112,90,0.16)" stroke="#C9705A" stroke-width="2"/>
+  <!-- Inner labels -->
+  <text x="140" y="130" font-size="11" font-weight="bold" fill="#2C3E6B" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Circle of Influence</text>
+  <text x="140" y="148" font-size="8.5" fill="#A07060" font-style="italic" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">My reactions · My wiring</text>
+  <text x="140" y="162" font-size="8.5" fill="#A07060" font-style="italic" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">My EI skills</text>
+  <!-- Outer ring labels -->
+  <text x="140" y="24" font-size="10.5" font-weight="bold" fill="rgba(44,62,107,0.52)" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Circle of Concern</text>
+  <text x="140" y="257" font-size="8.5" fill="#9A8F80" font-style="italic" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif">Spouse's mood · External events · Past hurts</text>
+</svg>
+<figcaption class="circle-caption"><em>Focusing inward grows your influence. Focusing outward shrinks it.</em></figcaption>
+</figure>
+
+When you focus on your own wiring and Emotional Intelligence, your influence over the marriage grows. When you focus on "fixing" your spouse, your influence shrinks. As Paul writes, *"each one should test their own actions"* (Galatians 6:4).
+
+---
+
+## Closing Reflection
+
+::: {.callout-tip}
+## Day 1 Closing Reflection
+
+Before moving to Day 2, take a quiet moment individually to answer:
+
+::: {.reflection-box}
+One thing I am taking from today:
+
+<div class="write-line"></div>
+
+One area where I want to grow:
+
+<div class="write-line"></div>
+:::
+:::
+
+::: {.prayer-box}
+**Day 1 Prayer (Together):**
+
+*Lord, thank You for calling us to love one another as You first loved us. Give us the grace to see ourselves clearly: our wiring, our wounds, and our need for You. Help us to build this marriage not on feelings alone, but on faith and skill. Amen.*
+:::

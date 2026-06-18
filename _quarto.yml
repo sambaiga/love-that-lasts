@@ -1,0 +1,73 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Love That Lasts"
+  subtitle: "A 4-Day Guide for Couples Integrating Faith, Personality, and Emotional Intelligence"
+  author: "Anthony Faustine"
+  date: "2026-05-31"
+  site-url: "https://sambaiga.github.io/love-that-lasts/"
+  search: true
+  page-navigation: true
+  bread-crumbs: false
+
+  sidebar:
+    collapse-level: 1
+
+  navbar:
+    right:
+      - icon: envelope-at
+        href: "mailto:sambaiga@gmail.com"
+        aria-label: "Email Anthony Faustine"
+      - icon: github
+        href: "https://github.com/sambaiga"
+        aria-label: "GitHub"
+
+  page-footer:
+    left: |
+      <span class="faux-block">&copy; 2026 <a href="https://sambaiga.github.io/">Anthony Faustine</a></span>
+      <span class="faux-block">For personal and small-group use</span>
+    center: |
+      <div class="footer-social">
+        <a href="mailto:sambaiga@gmail.com" title="Email"><i class="bi bi-envelope-at-fill"></i></a>
+        <a href="https://github.com/sambaiga" title="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://sambaiga.github.io" title="Website"><i class="bi bi-globe"></i></a>
+      </div>
+    right: |
+      <span class="faux-block">Made with <a href="https://quarto.org">Quarto</a></span>
+
+  chapters:
+    - index.qmd
+    - how-to-use.qmd
+    - part: "The Four-Day Guide"
+      chapters:
+        - day-01.qmd
+        - day-02.qmd
+        - day-03.qmd
+        - day-04.qmd
+    - part: "Group Materials"
+      chapters:
+        - group-husbands.qmd
+        - group-wives.qmd
+    - activity-sheet.qmd
+    - appendix.qmd
+
+icons:
+  bootstrap: true
+
+format:
+  html:
+    theme: [cosmo, _quarto/brand.scss]
+    highlight-style: github
+    toc: true
+    toc-depth: 3
+    toc-title: "In this section"
+    number-sections: false
+    fig-cap-location: bottom
+    anchor-sections: true
+    smooth-scroll: true
+
+execute:
+  enabled: false
+  echo: false
