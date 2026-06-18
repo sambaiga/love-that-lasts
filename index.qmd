@@ -1,6 +1,7 @@
 ---
 title: "Welcome"
 title-block-banner: true
+title-block-banner-color: white
 page-layout: article
 ---
 
@@ -44,7 +45,7 @@ This is a **self-guided journey** designed to be done without a counselor or fac
 
 <div class="day-grid">
 
-<div class="day-card">
+<div class="day-card" onclick="location.href='day-01.html'">
 <div class="day-stripe day-1"></div>
 <div class="day-inner">
 <i class="bi bi-layers day-icon day-icon-1"></i>
@@ -53,7 +54,7 @@ This is a **self-guided journey** designed to be done without a counselor or fac
 </div>
 </div>
 
-<div class="day-card">
+<div class="day-card" onclick="location.href='day-02.html'">
 <div class="day-stripe day-2"></div>
 <div class="day-inner">
 <i class="bi bi-person-circle day-icon day-icon-2"></i>
@@ -62,7 +63,7 @@ This is a **self-guided journey** designed to be done without a counselor or fac
 </div>
 </div>
 
-<div class="day-card">
+<div class="day-card" onclick="location.href='day-03.html'">
 <div class="day-stripe day-3"></div>
 <div class="day-inner">
 <i class="bi bi-heart-pulse day-icon day-icon-3"></i>
@@ -71,7 +72,7 @@ This is a **self-guided journey** designed to be done without a counselor or fac
 </div>
 </div>
 
-<div class="day-card">
+<div class="day-card" onclick="location.href='day-04.html'">
 <div class="day-stripe day-4"></div>
 <div class="day-inner">
 <i class="bi bi-chat-heart day-icon day-icon-4"></i>
